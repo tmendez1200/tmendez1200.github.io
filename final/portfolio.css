@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+#logo-hero{
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+nav ul{
+	text-align: center;
+	padding: 8px;
+	margin: 0 auto;
+}
+nav li{
+	display: inline;
+	background-color: #fca845;
+	padding: 8px 10px;
+	border-radius: 50px;
+}
+nav li:hover{
+	background-color: #45fc4c;
+}
+nav{
+	background-color: #b8182f;
+}
+body{
+	margin: 10px 0;
+	font-family: 'Playfair Display', serif;
+}
+main{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px 20px 20px;
+}
+footer{
+	text-align: center;
+	background-color: #fca845;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h1{
+	text-align: center;
+}
+h2{
+	font-size: 3ex;
+}
+.selfie{
+	margin: 0 auto;
+	display: block;
+}
+.icons .fa{
+	font-size: 5em;
+	color: red;
+}
+.icons{
+	text-align: center;
+	padding: 40px 0;
+	color: red;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.row{
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+}
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 1.8em;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
